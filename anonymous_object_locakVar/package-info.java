@@ -1,0 +1,1 @@
+package anonymous_object_locakVar;

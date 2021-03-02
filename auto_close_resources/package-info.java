@@ -1,0 +1,1 @@
+package auto_close_resources;
