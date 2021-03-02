@@ -19,7 +19,7 @@ public class Member implements Cloneable {
 		Member cloned = null;
 		try {
 			cloned = (Member) clone();
-		} catch(CloneNotSupportedException e) {}
+		} catch(CloneNotSupportedException e) {} //Cloneable 인터페이스를 구현하지 않으면 CloneNotSupportedException 예외가 발생한다. -> try-catch를 사용해야함
 		return cloned;
 	}
 }
