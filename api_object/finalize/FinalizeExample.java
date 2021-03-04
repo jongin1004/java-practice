@@ -9,6 +9,7 @@ public class FinalizeExample {
 			
 			counter = null;
 			
+			//for문이 실행될 때 마다 가급적 빨리 쓰레기 수집기를 실행해달라
 			System.gc();			
 		}
 	}
